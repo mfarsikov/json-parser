@@ -1,0 +1,23 @@
+{
+  "steps": [
+    {
+      "processor": "AddField",
+      "configuration": {
+        "fieldName": "accountName",
+        "fieldValue": "Facebook"
+      }
+    },
+    {
+      "processor": "RemoveField",
+      "configuration": {
+        "fieldName": "userName"
+      }
+    },
+    {
+      "processor": "countNumberOfFields",
+      "configuration": {
+        "targetFieldName": "numOfFields"
+      }
+    }
+  ]
+}
